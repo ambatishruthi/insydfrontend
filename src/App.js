@@ -9,7 +9,7 @@ function App() {
   useEffect(() => {
     const fetchNotifications = async () => {
       try {
-        const response = await fetch('https://insydbackend-1.onrender.com/api/notifications');
+        const response = await fetch('https://insydbackend.onrender.com/api/notifications');
 
         if (!response.ok) {
           throw new Error(`HTTP error! status: ${response.status}`);
